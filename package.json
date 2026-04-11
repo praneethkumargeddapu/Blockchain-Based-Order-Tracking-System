@@ -1,0 +1,18 @@
+{
+    "name": "blockchain-order-tracking",
+    "version": "1.0.0",
+    "description": "Team-5 project",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "test": "npx hardhat test",
+        "deploy": "npx hardhat run scripts/deploy.js --network amoy"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "hardhat": "^2.22.0"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.0.0",
+        "dotenv": "^16.0.0"
+    }
+}
