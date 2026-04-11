@@ -33,7 +33,7 @@ contract OrderTracking is AccessControl{
         _;
     }
 
-    function register_product(uint256 product_id, string calldata hash) external onlyRole(MANUFACTURER){
+    function register_product(uint256 product_id, string calldata hash) external onlyRole(MANUFACTURER) {
         require(!products[product_id].exists, "Product already registered");
         require(bytes(hash).length > 0, "Hash cannot be empty");
         products[product_id] = Product({
@@ -47,7 +47,7 @@ contract OrderTracking is AccessControl{
         emit ProductIsRegistered(product_id, msg.sender);
     }
 
-    function transfer_custody(uint256 product_id, address new_owner) external product_exists(product_id){
+    function transfer_custody(uint256 product_id, address new_owner) external product_exists(product_id) {
         Product storage i = products[product_id];
         require(i.owner == msg.sender, "Only current owner can transfer");
         require(new_owner != address(0), "Invalid address");
@@ -81,11 +81,11 @@ contract OrderTracking is AccessControl{
         return products[product_id];
     }
 
-    function get_status(uint256 product_id) external view product_exists(product_id) returns (Status){
+    function get_status(uint256 product_id) external view product_exists(product_id) returns (Status) {
         return products[product_id].status;
     }
 
-    function grant_stakeholder_role(bytes32 role, address account) external onlyRole(DEFAULT_ADMIN_ROLE){
+    function grant_stakeholder_role(bytes32 role, address account) external onlyRole(DEFAULT_ADMIN_ROLE) {
         _grantRole(role, account);
     }
 }
