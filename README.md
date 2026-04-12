@@ -51,7 +51,7 @@ npm run compile
 npm test
 ```
 
-#Current progress of the projet
+# Current progress of the projet
 Completed two pages of the frontend. The two pages are Product Tracker and Manufacturer Dashboard
 Smart contract is finished. It's compiled successfully and all tests are passing.
 Deployment of the smart contract into polygon amoy testnet and the integration into the frontend are in progress
