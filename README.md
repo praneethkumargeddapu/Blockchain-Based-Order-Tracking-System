@@ -37,21 +37,21 @@ frontend/ React application
 backend/ Will be updated soon
 test / OrderTracking.test.js
 
-#How to Run Frontend
+###How to Run Frontend
 ```bash
 cd frontend
 npm install
 npm start
 ```
 
-# How to run the smart contract
+### How to run the smart contract
 ```bash
 npm install
 npm run compile
 npm test
 ```
 
-#Current progress of the projet
+##Current progress of the projet
 Completed two pages of the frontend. The two pages are Product Tracker and Manufacturer Dashboard
 Smart contract is finished. It's compiled successfully and all tests are passing.
 Deployment of the smart contract into polygon amoy testnet and the integration into the frontend are in progress
