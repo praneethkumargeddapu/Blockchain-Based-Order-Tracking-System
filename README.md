@@ -33,5 +33,13 @@ Node.js: for the backend
 Blockchain-Based-Order-Tracking-System
 contracts/ OrderTracking.sol
 scripts/ deploy.js
-frontend/ 
-backend/
+frontend/ React application
+backend/ Will be updated soon
+test / OrderTracking.test.js
+
+#How to Run Frontend
+'''bash
+cd frontend
+npm install
+npm start
+'''
