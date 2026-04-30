@@ -45,26 +45,26 @@ export default function RegulatorDashboard({signer, account}){
       <div className="card">
         <form onSubmit={Certification}>
 
-          <div className="field">
+        <div className="field">
 
-            <label>Product ID</label>
-            <input
+        <label>Product ID</label>
+        <input
 
-              type="text"
+          type="text"
 
-              value={product_id}
-              onChange={(e) => setProdId(e.target.value)}
-            />
+          value={product_id}
+          onChange={(e) => setProdId(e.target.value)}
+        />
 
-          </div>
-          <p className="field-note">To certify the products on the blockchain. Only authorized persons with regulator role can do this</p>
-          <button type="submit" className="submit-btn" disabled={load}>
-            {load ? "Submitted. Waiting to confirm" : "Certify Product"}
-          </button>
+        </div>
+        <p className="field-note">To certify the products on the blockchain. Only authorized persons with regulator role can do this</p>
+        <button type="submit" className="submit-btn" disabled={load}>
+          {load ? "Submitted. Waiting to confirm" : "Certify Product"}
+        </button>
 
         </form>
         {msg && <p className="message">{msg}</p>}
-      </div>
+        </div>
 
     </div>
   );
