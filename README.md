@@ -95,10 +95,10 @@ Backend runs on http://localhost:3001
 
 ##References
 We wrote the code for this project by referencing the following documentation.
-React Documentation: https://react.dev
-MDN Web Docs (JavaScript): https://developer.mozilla.org
-Ethers.js v6 Documentation: https://docs.ethers.org/v6
-Hardhat Documentation: https://hardhat.org/docs
-OpenZeppelin Contracts: https://docs.openzeppelin.com/contracts
-Pinata IPFS Documentation: https://docs.pinata.cloud
-PolygonScan API: https://docs.etherscan.io
+1. React Documentation: https://react.dev
+2. MDN Web Docs (JavaScript): https://developer.mozilla.org
+3. Ethers.js v6 Documentation: https://docs.ethers.org/v6
+4. Hardhat Documentation: https://hardhat.org/docs
+5. OpenZeppelin Contracts: https://docs.openzeppelin.com/contracts
+6. Pinata IPFS Documentation: https://docs.pinata.cloud
+7. PolygonScan API: https://docs.etherscan.io
