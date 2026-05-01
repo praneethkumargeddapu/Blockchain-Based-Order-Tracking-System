@@ -8,10 +8,11 @@ This is a blockchain-based order tracking system built on Polygon (Amoy Testnet)
 
 # Who are the users?
 1. Manufacturer: registers the product on the blockchain.
-2. Distributor: updates shipment and custody info.
-3. Retailer: marks product as stored and delivered.
+2. Distributor: updates shipment and transfers the ownership to the next owner.
+3. Retailer: marks product as out for delivery and delivered.
 4. Regulator: certifies products and audits records.
 5. Consumer: can view product history by scanning a QR code.
+
 **Contract was deployed in the following address**
 0x95d5F19535a605DA547b23E3E5167E3B9E9C047b
 # Tech Stack
