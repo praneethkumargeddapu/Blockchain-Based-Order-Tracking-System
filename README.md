@@ -1,7 +1,7 @@
 # Blockchain-Based-Order-Tracking-System
 An order tracking system designed based on Blockchain.
 **CSE 540: Team 5**
-Amruta Mahajan, Praneeth Kumar Geddapu, Samarjeet Paril, Remi Maria Selvam, Rohit Chintakindi
+Amruta Mahajan, Praneeth Kumar Geddapu, Samarjeet Patil, Remi Maria Selvam, Rohit Chintakindi
 
 # Project Description.
 This is a blockchain-based order tracking system built on Polygon (Amoy Testnet). The idea is to track products as they move through a supply chain, from the manufacturer all the way to the customer. The system allows authorized stakeholders like manufacturers, distributors, retailers, and regulators to register products, transfer custody, update order statuses, and issue certifications on-chain. All state changes cannot be altered and publicly auditable. Supporting documents like certificates are stored off-chain via IPFS, with content hashes recorded on-chain for verification. 
@@ -50,7 +50,7 @@ npm install
 ```
 ### 3. Set up the environment
 create a file named ".env", then copy the contents from ".env.example" and fill in your values for PRIVATE_KEY and AMOY_RPC_URL.
-### 4. INstall dependencies for backend
+### 4. INstall dependencies for frontend
 ```bash
 cd frontend
 npm install
