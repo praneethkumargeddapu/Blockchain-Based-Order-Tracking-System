@@ -58,7 +58,7 @@ export default function ProductTracker({signer}){
     try{
       const response = await fetch(`http://localhost:3001/history/${product_id}`);
       const cur_data = await response.json();
-      const events = cur_data.events;
+      const events = cur_data.cur_events;
       setProdHistory(events);
     } catch (err){
       setErr("Failed to load history.");
