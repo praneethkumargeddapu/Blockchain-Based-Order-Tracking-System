@@ -36,21 +36,21 @@ package.json
 hardhat.config.js
 .env.example
 
-#How to setup
-###1. Clone the repo
+# How to setup
+### 1. Clone the repo
 Use the following commands
 ```bash
 git clone https://github.com/praneethkumargeddapu/Blockchain-Based-Order-Tracking-System.git"
 cd Blockchain-Based-Order-Tracking-System
 ```
-###2.Install the dependencies
+### 2.Install the dependencies
 Use the following command
 ```bash
 npm install
 ```
-###3. Set up the environment
+### 3. Set up the environment
 create a file named ".env", then copy the contents from ".env.example" and fill in your values for PRIVATE_KEY and AMOY_RPC_URL.
-###4. INstall dependencies for backend
+### 4. INstall dependencies for backend
 ```bash
 cd frontend
 npm install
@@ -83,7 +83,7 @@ node server.js
 Frontend runs on http://localhost:3000
 Backend runs on http://localhost:3001
 
-#How to perform ordertracking on the website.
+# How to perform ordertracking on the website.
 1. Run the frontend on localhost of your device. 
 2. Create an account in Metamask and connect your metamask wallet to Polygon Amoy Testnet
 3. Follow the role-specific operations:
@@ -93,7 +93,7 @@ Backend runs on http://localhost:3001
    **Regulator** can certify a product.
 4. You can lookup transit history of a product by using **Track product**. You don't need metamask wallet for this functionality.
 
-##References
+## References
 We wrote the code for this project by referencing the following documentation.
 1. React Documentation: https://react.dev
 2. MDN Web Docs (JavaScript): https://developer.mozilla.org
